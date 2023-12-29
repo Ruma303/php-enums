@@ -48,8 +48,9 @@ var_dump(Status::cases()); // Array enums
 
 foreach (Status::cases() as $case) {
     echo $case->name, ': ', $case->value, '<br>';
-} */ //PENDING: pending, APPROVED: approved, REJECTED: rejected
+} //PENDING: pending, APPROVED: approved, REJECTED: rejected
 
+ */
 //# Modificare i valori degli enum
 //Status::APPROVED->value = 'Unknown'; // Errore
 
